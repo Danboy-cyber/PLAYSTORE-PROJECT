@@ -315,8 +315,8 @@ header{
 
 
     .do .it{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
         /* flex-wrap: wrap; */
         grid-template-rows: 1fr;
         gap: 2rem;

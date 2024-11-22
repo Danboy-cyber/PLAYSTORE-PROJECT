@@ -439,7 +439,7 @@ header{
 .not .least{
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .least .but{
@@ -497,10 +497,11 @@ header{
 
     .do .it{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        /* flex-wrap: wrap; */
-        grid-template-rows: 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-wrap: wrap;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        font-size: 5px;
         /* margin: 2rem 1rem 1.5rem 1.5rem; */
     }
     
