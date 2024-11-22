@@ -20,6 +20,7 @@ body{
 }
 
 
+
 @media (max-width: 500px)                {
     .fa-magnifying-glass{
         width: 20px;
@@ -41,10 +42,12 @@ body{
 
     .leftnav h5{
         font-size: 15px;
-        margin-right: 20px;
+        margin-right: 5px;
     }  
     
 }
+
+
 
 .fa-magnifying-glass{
     width: 30px;
