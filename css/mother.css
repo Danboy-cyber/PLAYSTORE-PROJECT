@@ -51,7 +51,7 @@ header{
     padding: 0px 30px;  
     justify-content: space-between; 
     align-items: center;  
-    margin: 1rem 1rem 2rem;
+    margin: 1rem 0rem 2rem 0rem;
 }
 
 .main .leftnav{
@@ -359,6 +359,34 @@ header{
 
 
 
+@media (max-width: 500px)                {
+    .fa-magnifying-glass{
+        width: 20px;
+        font-size: 15px;
+        /* height: 20px; */
+    }
+
+
+    .fa-circle-question{
+        width: 20px;
+        font-size: 15px;
+    }
+
+
+    .fa-circle-user{
+        width: 20px;
+        font-size: 15px;
+    }
+
+    .leftnav h5{
+        font-size: 15px;
+        margin-right: 20px;
+    }  
+    
+}
+
+
+
 .actual .okay:hover{
     color: green;
     background-color: rgb(221, 237, 197);
@@ -445,6 +473,35 @@ header{
 }
 
 
+@media (max-width: 500px)                {
+    .could .do{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        gap: 2rem;
+        /* margin: 2rem; */
+        margin-bottom: 5rem;
+    }
+
+
+    .do .it{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* flex-wrap: wrap; */
+        grid-template-rows: 1fr;
+        gap: 2rem;
+        /* margin: 2rem 1rem 1.5rem 1.5rem; */
+    }
+    
+}
+
+
+
+
+
+
+ 
 
 
  
